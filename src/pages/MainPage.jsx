@@ -1,10 +1,14 @@
 import React from "react";
-import NavComponent from "../components/common/NavComponent";
+import Header from "../components/common/Header";
+import Cards from "../components/common/Cards";
+import SwipeButtons from "../components/common/SwipeButtons";
 
 const MainPage = () => {
   return (
     <div>
-      <NavComponent />
+      <Header />
+      <Cards />
+      <SwipeButtons />
     </div>
   );
 };

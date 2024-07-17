@@ -7,7 +7,7 @@ import Cards from "./components/common/Cards";
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Cards />} />
+      <Route path="/" element={<MainPage />} />
       <Route path="/setting/:memberId" element={<SettingPage />} />
     </Routes>
   );
