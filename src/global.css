@@ -1,0 +1,24 @@
+:root {
+  --white: #ffffff;
+
+  --black: #021001;
+
+  --red: #ff6161;
+
+  --jade-pri: #67c5d2;
+  --jade-sec: #dbf2f5;
+
+  --orange-pri: #ff9c66;
+  --orange-sec: #ffecd1;
+
+  font-family: Pretendard;
+}
+* {
+  font-family: Pretendard;
+}
+#root {
+  width: 375px;
+  margin: 0 auto;
+}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
